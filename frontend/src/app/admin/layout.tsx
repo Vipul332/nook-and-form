@@ -130,6 +130,36 @@ export default function AdminLayout({
           <p className="mt-1 text-xs font-medium text-[#d6d1ca]">
             Management Panel
           </p>
+
+          {/* =================================================
+              VIEW PUBLIC WEBSITE
+          ================================================== */}
+          <Link
+            href="/"
+            className="
+              mt-5
+              flex
+              items-center
+              justify-center
+              rounded-lg
+              border
+              border-[#716b63]
+              bg-transparent
+              px-4
+              py-2.5
+              text-xs
+              font-semibold
+              uppercase
+              tracking-[0.12em]
+              text-[#e7e3dd]
+              transition
+              hover:border-[#aaa298]
+              hover:bg-[#2c2a27]
+              hover:text-white
+            "
+          >
+            View Website
+          </Link>
         </div>
 
         {/* =================================================

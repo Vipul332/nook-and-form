@@ -1066,7 +1066,16 @@ export default function HomePage() {
               <span>India</span>
             </div>
 
-            <p>Designed with intention.</p>
+            <div className="flex items-center gap-5">
+              <Link
+                href="/admin/login"
+                className="transition-colors hover:text-white"
+              >
+                Studio Login
+              </Link>
+
+              <p>Designed with intention.</p>
+            </div>
           </div>
         </div>
       </footer>
